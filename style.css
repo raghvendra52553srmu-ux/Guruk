@@ -1,0 +1,77 @@
+/* Default margin remove */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:#0a0a0a;
+    background:linear-gradient(to right,#ca97b9,#c4cfb6);
+    font-family:Arial;
+    .intro-section{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:40px;
+}
+
+.intro-section img{
+    width:400px;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 6px 15px rgba(19, 137, 153, 0.3);
+}
+
+.intro-text{
+    max-width:600px;
+}
+
+.intro-text h2{
+    color:#050505;
+    font-size:32px;
+}
+
+.intro-text p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+}
+/* Heading center */
+.heading{
+    text-align:center;
+   background: #50b815; 
+}
+
+/* Navbar container */
+.navbar{
+    background-color:#1e7c76;
+    padding:15px 0;
+}
+
+/* UL ko ek line me lane ke liye */
+.nav-links{
+    list-style:none;
+    display:flex;
+    justify-content:center;   /* center me laane ke liye */
+    align-items:center;
+    margin:0;
+    padding:0;
+}
+
+/* Links ke beech space */
+.nav-links li{
+    margin:0 25px;
+}
+
+/* Link styling */
+.nav-links li a{
+    color:rgb(16, 153, 39);
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+/* Hover effect */
+.nav-links li a:hover{
+    color:rgb(190, 190, 19);
+}
